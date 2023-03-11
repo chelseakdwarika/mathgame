@@ -18,10 +18,10 @@ class Question
     answer = $stdin.gets.chomp.to_i
 
     if answer == num1 + num2
-      puts "⭑*•̩̩͙⊱••••✩••••̩̩͙⊰•*⭑ GREAT JOB! ⭑*•̩̩͙⊱••••✩••••̩̩͙⊰•*⭑ "
+      puts "✅✅ GREAT JOB! ✅✅"
       true
     else 
-      puts "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ NOT QUITE! ┐_(ツ)_┌"
+      puts "❌❌ NOT QUITE! ❌❌"
       false
     end
   end

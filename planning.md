@@ -50,3 +50,5 @@ track turns (3)
 track scores
 track lives
 track correct answers (if they match generated question)
+
+## Use puts, raise some_val.inspect, and byebug to help with debugging
